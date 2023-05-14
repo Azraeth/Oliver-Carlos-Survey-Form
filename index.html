@@ -18,7 +18,16 @@
     </p>
 
     <form action="" id="survey-form">
-        <input type="text" id="name" class="form-control" placeholder="enter your name" />
+        <input type="text"  id ="name-label"  class="form-control" placeholder="enter your name"/>
+        <input type="email" id ="email-label" placeholder ="email"/>
+        <input type="number" id ="number-label" placeholder="age" pattern="[0-9]" min="[18]" max="[60]"/>
+        <fieldset id="fieldset-selections"> 
+        <select id="name"  required>
+        <option value="">value to show
+            
+        </option>    
+        </select>   
+        </fielset>
     </form>
 
 </body>
